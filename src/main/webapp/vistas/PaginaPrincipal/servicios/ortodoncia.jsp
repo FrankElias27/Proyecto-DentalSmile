@@ -1,0 +1,141 @@
+<%-- 
+    Document   : ortodoncia
+    Created on : 23-oct-2022, 18:59:43
+    Author     : Ellis
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dento Smile</title>
+        <!-- Boostrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- Aquí enlazamos a nuestro master.css -->
+        <link rel = "stylesheet" href = "../../../css/master.css">
+        <!-- Icons -->
+        <script src="https://kit.fontawesome.com/83ddb2f15f.js" crossorigin="anonymous"></script>
+        <!-- Aquí están las fonts que usamos en la web -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- navegacion -->
+        <nav class="navbar" style="height: 82px">
+            <a href = "../../../index.jsp">Inicio</a>
+            <a href = "../nosotros.jsp">Nosotros</a>
+            <a href = "../sedes.jsp">Sedes</a>
+            <a href = "../servicios.jsp">Servicios</a>
+            <a href = "../../../identificar.jsp"><i class="fa fa-wrench"></i></a>
+        </nav>
+        <header class ="header-galeriapestaña">
+            <!-- cabecera -->       
+            <div class="cabecera-galeriapestaña">
+                <h1 style="line-height:85px">Ortodoncia</h1>
+            </div>
+        </header>
+
+        <br><br>
+        <p class = "title-nosotrospestaña" >BRACKETS METÁLICOS CONVENCIONALES</p><br>
+        <p style="align-content: center">Los brackets metálicos o brackets convencionales son los aparatos dentales más tradicionales, y actualmente son más cómodos que nunca. Este tipo de Brackets son los correctores dentales <br>
+            más usados en los tratamientos de ortodoncia, ya que permiten corregir cualquier tipo de maloclusión (apiñamiento, separaciones, sobremordida, mordida abierta, mordida cruzada etc)</p><br>
+        <section class = "content servicios">
+            <ul class ="list-servicios row-cols-md-1 row-cols-lg-2 row-cols-xl-6">
+                <li>
+                    <div class="card" style="width: 14rem; right: -5rem;">
+                        <img src="../../../img/ort1.png" class="card-img-top" alt="pic">
+                    </div>
+                </li>
+                <li>
+                    <div class="card" style="width: 18rem; right: -5rem;">
+                        <img src="../../../img/ort2.jpg" class="card-img-top" alt="pic">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <p style="align-content: center">Los brackets metálicos utilizan unas gomitas para fijar el alambre, el cual se usa para alinear los dientes correctamente.<br>
+            En el caso de los niños y adolescentes existe la opción de agregar elásticos (gomas) de colores para una sonrisa única y colorida.</p><br>
+        <br>
+        <p class = "title-nosotrospestaña" >BRACKETS AUTOLIGANTES</p><br>
+        <p style="align-content: center">En la ortodoncia convencional, ligaduras metálicas o elásticas (gomitas transparentes, grises o de colores) unen los arcos a los brackets. Como los brackets<br>
+            están pegados al diente, cuando el arco recupera su forma arrastra consigo al conjunto diente-bracket para colocar los dientes en su sitio ideal.<br>
+            En el caso de los brackets autoligantes no se utiliza ninguna ligadura para unir el bracket al arco, sino que se hace mediante una especie de clip incorporado<Br>
+            en el propio bracket, el cual reduce la fricción entre le bracket y el alambre</p><br>
+        <section class = "content servicios">
+            <ul class ="list-servicios row-cols-md-1 row-cols-lg-2 row-cols-xl-6">
+                <li>
+                    <div class="card" style="width: 60rem; right: 20rem;">
+                        <img src="../../../img/ort3.jpg" class="card-img-top" alt="pic">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <p style="align-content: center">Mientras que un tratamiento normal de ortodoncia dura aproximadamente 18-24 meses de media, gracias a los brackets de autoligado la duración media de<br>
+            un tratamiento puede verse ligeramente reducida en algunos casos, aunque la principal ventaja es la comodidad de no llevar ligaduras y la mejor higiene<br>
+            gracias a ello.</p><br>
+        <section class = "content servicios">
+            <ul class ="list-servicios row-cols-md-1 row-cols-lg-2 row-cols-xl-6">
+                <li>
+                    <div class="card" style="width: 20rem; right: 0rem;">
+                        <img src="../../../img/ort4.jpg" class="card-img-top" alt="pic">
+                    </div>
+                </li>
+                <li>
+                    <div class="card" style="width: 20rem; right: 0rem;">
+                        <img src="../../../img/ort5.jpg" class="card-img-top" alt="pic">
+                    </div>
+                </li>
+                <li>
+                    <div class="card" style="width: 20rem; right: 0rem;">
+                        <img src="../../../img/ort6.jpg" class="card-img-top" alt="pic">
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <p class = "title-nosotrospestaña" >Ventajas del sistema de Autoligado</p><br>
+        <p style="align-content: center">La ortodoncia con este tipo de brackets autoligantes suele facilitar algunos tipos de movimiento y acortara pocos meses el tiempo de tratamiento de<br>
+            ortodoncia.<br>
+            Elimina la necesidad de gomitas o ligaduras metálicas por lo que se pueden espaciar más las visitas al ortodoncista</p><br>
+
+        <!-- Pie de página -->
+        <section class = "content pie">
+            <div class="container">
+                <div class="row">
+                    <p>CONTÁCTENOS</p><br>
+
+                    <div class="col">
+                        <h4><img src="../../../img/logo.png" width="80" height="80"></h4><br>
+
+                        <p><i>"La sonrisa es la ventana del alma"</i></p>
+                        <p>Lunes a Viernes de 8:00am a 10:30pm <br> Sábado a Domingo de 12:00pm a 5:00pm</p>
+
+                        <a href="mailto:dentosmile@gmail.com?Subject=Deseo%20agendar%20una%20cita" class="login100-social-item bg1">
+                            <i class="fa fa-envelope"></i>
+                        </a>&nbsp &nbsp &nbsp
+                        <a href="https://wa.link/fmmz90" class="login100-social-item bg3" target="link_blank">
+                            <i class="fa fa-phone"></i>
+                        </a>&nbsp &nbsp &nbsp
+
+                        <a href="https://www.facebook.com/DentalSmilePeru" class="login100-social-item bg1" target="link_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </div>
+                    <div class="col order-1">
+
+                        <p>Visítanos en el centro de Ica</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.223216981749!2d-75.73128618462464!3d-14.063992136521934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9110e2bdae3019ad%3A0xdc8edaf0195e4c53!2sPlaza%20de%20Armas%20de%20Ica%2C%20Ica%2011001!5e0!3m2!1ses-419!2spe!4v1665956859170!5m2!1ses-419!2spe" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
